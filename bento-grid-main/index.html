@@ -1,51 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Bento grid</title>
-
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor |Bento Grid</title>
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <main class="grid_wrapper">
-    <article>
-      <h1>Social Media <span>10x</span> <i>Faster</i> with AI</h1>
-      <img src="./assets/images/illustration-five-stars.webp" alt="Yellow Filled Five Star Icons Set">
-      <p>Over 4,000 5-star reviews</p>
-    </article>
-    <article>
-      <h2>Manage multiple accounts and platforms.</h2>
-      <img src="./assets/images/illustration-multiple-platforms.webp" alt="Manage Multiple Account Illustration">
-    </article>
-    <article>
-      <h2>Maintain a consistent posting schedule.</h2>
-      <img src="./assets/images/illustration-consistent-schedule.webp" alt="Consistent Posting Schedule Illustration">
-    </article>
-    <article>
-      <h2>Schedule to social media.</h2>
-      <img src="./assets/images/illustration-schedule-posts.webp" alt="Social Media Schedule Post Illustration">
-      <p>Optimize post timings to publish content at the perfect time for your audience.</p>
-    </article>
-    <article>
-      <h2>Grow followers with non-stop content.</h2>
-      <img src="./assets/images/illustration-grow-followers.webp" alt="Grow Followers Illustration">
-    </article>
-    <article>
-      <h2>>56%<span> faster audience growth</span></h2>
-      <img src="./assets/images/illustration-audience-growth.webp" alt="Faster Audience Growth Illustration">
-    </article>
-    <article>
-      <h2>Create and schedule content <span>quicker.</span></h2>
-      <img src="./assets/images/illustration-create-post.webp" alt="Create Post Illustration">
-    </article>
-    <article>
-      <h2>Write your content using AI.</h2>
-      <img src="./assets/images/illustration-ai-content.webp" alt="AI Content Illustration">
-    </article>
-  </main>
+    <section class="main-grid">
+        <div class="left-grid">
+            <div class="grid-item content-schedule">
+                <p class="text-preset-2">
+                    Create and schedule content <em class="text-purple">quicker.</em>
+                </p>
+
+                <img src="./assets/images/illustration-create-post.webp" alt="Create Post Illustration" draggable="false" />
+            </div>
+
+            <div class="grid-item content-ai">
+                <p class="text-preset-2">
+                    Write your content<br />
+                    using AI.
+                </p>
+
+                <img src="./assets/images/illustration-ai-content.webp" alt="AI Content Illustration" draggable="false" />
+            </div>
+        </div>
+
+        <div class="grid-item content-reviews">
+            <h1 class="text-preset-1">
+                Social Media <span class="text-yellow">10x</span> <em>Faster</em> with
+                AI
+            </h1>
+
+            <div class="reviews-number">
+                <img src="./assets/images/illustration-five-stars.webp" alt="Five Stars Illustration" draggable="false" />
+                <p class="text-preset-4">Over 4,000 5-star reviews</p>
+            </div>
+        </div>
+
+        <div class="grid-item content-optimise">
+            <p class="text-preset-3">Schedule to social media.</p>
+
+            <img src="./assets/images/illustration-schedule-posts.webp" alt="Schedule Posts Illustration" draggable="false" />
+
+            <p class="text-preset-4">
+                Optimize post timings to publish content at the perfect time for your
+                audience.
+            </p>
+        </div>
+
+        <div class="grid-item content-accounts">
+            <img src="./assets/images/illustration-multiple-platforms.webp" alt="Multiple Platforms Illustration" draggable="false" />
+
+            <p class="text-preset-3">
+                Manage<br />
+                multiple accounts and platforms.
+            </p>
+        </div>
+
+        <div class="grid-item content-calendar">
+            <p class="text-preset-3">Maintain a consistent posting schedule.</p>
+
+            <img src="./assets/images/illustration-consistent-schedule.webp" alt="Consistent Schedule Illustration" draggable="false" />
+        </div>
+
+        <div class="grid-item content-growth">
+            <div class="growth-title">
+                <p class="text-preset-1">>56%</p>
+                <p class="text-preset-4">faster audience growth</p>
+            </div>
+
+            <img src="./assets/images/illustration-audience-growth.webp" alt="Audience Growth Illustration" draggable="false" />
+        </div>
+
+        <div class="grid-item content-chart">
+            <img src="./assets/images/illustration-grow-followers.webp" alt="Grow Followers Illustration" draggable="false" />
+
+            <p class="text-preset-2">Grow followers with non-stop content.</p>
+        </div>
+    </section>
 </body>
+
 </html>
